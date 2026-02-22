@@ -37,6 +37,6 @@ public class DemoApplication {
 
     @GetMapping("/health")
     static public String healthCheck() {
-        return "OK";
+        return "OK - Usando IA Generativa para el pipeline";
     }
 }
